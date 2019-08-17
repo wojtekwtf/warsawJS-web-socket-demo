@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+  font-size: 16px;
+  color: #333;
+
+  --border-radius: 0.5rem;
+  --regular-margin: 0.5rem;
+}
+
+body {
+  margin: 0;
+  padding: 0.5rem;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header,
+input,
+button {
+  border-radius: var(--border-radius);
+  border: solid 1px #e0e0e0;
+  padding: 1rem;
+}
+
+header,
+label,
+input,
+button {
+  margin: var(--regular-margin);
+}
+
+header {
+  justify-self: flex-start;
+}
+
+header,
+label,
+p {
+  font-size: 2rem;
+  text-align: center;
+}
+
+input,
+button {
+  width: calc(100% - 2 * var(--regular-margin));
+  font-size: 2rem;
+}
+
+button {
+  background-color: #eee;
+}
+
+button:not([disabled]) {
+  cursor: pointer;
+}
+
+button:not([disabled]):hover {
+  background-color: #d8d8d8;
+}
+
+#role-selection,
+#student-identification-form,
+#message-panel,
+#student-panel,
+#trainer-panel {
+  flex: 1 1 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#role-selection button {
+  flex: 1 1 100%;
+}
+
+#student-identification-form label,
+#student-identification-form input,
+#student-identification-form button {
+  flex: 0 0 auto;
+}
+
+#i-need-help-button,
+#help-provided-button {
+  flex: 1 1 100%;
+}
+
+#message-panel {
+  margin: var(--regular-margin);
+}
+
+#message {
+  font-size: 2rem;
+  text-align: center;
+}

@@ -1,0 +1,25 @@
+{
+  "name": "warsawjs-workshop-34-trainer-needed-client",
+  "description": "Client part of an application that allows students ask a trainer for help during a WarsawJS workshop.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "scripts": {
+    "start-client": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.4",
+    "@babel/preset-env": "^7.5.4",
+    "babel-loader": "^8.0.6",
+    "css-loader": "^3.0.0",
+    "eslint": "^6.0.1",
+    "eslint-loader": "^2.2.1",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.7.0",
+    "webpack": "^4.35.3",
+    "webpack-cli": "^3.3.5",
+    "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "lodash": "^4.17.14"
+  }
+}
