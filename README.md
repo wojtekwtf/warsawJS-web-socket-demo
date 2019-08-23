@@ -9,18 +9,17 @@ We build a software for running workshops with trainers ready to help
 students. The assumption is to run the app as a chosen role and rely on it
 to communicate during the workshop.
 
-First, choose the your role:
+## First, choose the your role:
 ![Choose your role](images/choose_role.png)
 
-Here is an example view with the selected roles and registered users:
+## Here is an example view with the selected roles and registered users:
 
 ![Registered users](images/setup_ready.png)
 
-Then once the students start requesting help, trainers can physically
-approach and help them
+## Then once the students start requesting help, trainers can physically approach and help them
 ![Waiting for the trainer](images/queue.png)
 
-In the wild, the users' screens would look like this:
+## In the wild, the users' screens would look like this:
 ![Workshop running](images/wild.png)
 
 ## Run
